@@ -9,7 +9,7 @@
    a. General Styles
    b. Header Styles
    c. About Section
-   d. Resume Section
+   d. formacion Section
    e. Portfolio Section
    f. Call To Action Section
    g. Testimonials Section
@@ -208,6 +208,10 @@ ul#nav li.current a { color: #fe6928; }
 #about a, #about a:visited  { color: #fff; }
 #about a:hover, #about a:focus { color: #0762f9; }
 
+.justified {
+   text-align: justify;
+}
+
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
    color: #fff;
@@ -220,7 +224,7 @@ ul#nav li.current a { color: #fe6928; }
 #about .profile-pic {
    position: relative;
    width: 300px;
-   height: 310px;
+   height: 300px;
    border-radius: 20px;
 }
 #about .contact-details { width: 41.66667%; }
@@ -244,55 +248,62 @@ ul#nav li.current a { color: #fe6928; }
 
 
 /* ------------------------------------------------------------------ */
-/* d. Resume Section
+/* d. formacion Section
 /* ------------------------------------------------------------------ */
 
-#resume {
+#formacion {
    background: #fff;
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #0762f9; }
-#resume a:hover, #resume a:focus { color: #313131; }
+#formacion a, #formacion a:visited  { color: #0762f9; }
+#formacion a:hover, #formacion a:focus { color: #313131; }
 
-#resume h1 {
+#formacion h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
-#resume h1 span {
-   border-bottom: 3px solid #0762f9;
-   padding-bottom: 6px;
+#formacion h1 span {
+   border-bottom: 0px solid #0762f9;
+   padding-bottom: 1px;
 }
-#resume h3 {
+#formacion h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
 }
 
-#resume .header-col { padding-top: 9px; }
-#resume .main-col { padding-right: 10%; }
+#formacion .header-col { padding-top: 9px; }
+#formacion .main-col { padding-right: 10%; }
 
 .education, .work {
    margin-bottom: 48px;
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
 }
-#resume .info {
+#formacion .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
 }
-#resume .info span {
+#formacion .info span {
    margin-right: 5px;
    margin-left: 5px;
 }
-#resume .date {
+#formacion .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
 
+
+.ul-formacion {
+   list-style-type: disc;
+   margin-left: 20px; /* Adjust margin as needed */
+   text-align: justify;
+   color:#000524;
+ }
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/

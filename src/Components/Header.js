@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
 
 class Header extends Component {
@@ -29,7 +28,7 @@ class Header extends Component {
             </li>
 
             <li>
-              <a className="smoothscroll" href="#resume">
+              <a className="smoothscroll" href="#formacion">
                 Formación y experiencia
               </a>
             </li>
@@ -66,7 +65,7 @@ class Header extends Component {
             </Fade>
             <Fade bottom duration={1200}>
               <h2 className="special-h2">{"Te doy la bienvenida a un espacio seguro para explorar tus pensamientos, emociones y comportamientos"}.</h2>
-              <h2 className="special-h2">{"Dra. Tatiana Jiménez Vargas"}.</h2>
+              <h2>{"Dra. Tatiana Jiménez Vargas"}.</h2>
             </Fade>
             <hr />
             <Fade bottom duration={2000}>
