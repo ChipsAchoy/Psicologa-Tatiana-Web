@@ -1,3 +1,0 @@
-npm i react-scripts@latest --force
-npm start
-
