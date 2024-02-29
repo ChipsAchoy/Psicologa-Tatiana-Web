@@ -55,6 +55,11 @@ header {
    color: #bc439e;
  }
 
+ .special-div{
+   background-color: #000524;
+
+ }
+
 /* vertically center banner section */
 header:before {
    content: '';
@@ -199,7 +204,7 @@ ul#nav li.current a { color: #fe6928; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #000524;
+   background: #350050;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -221,9 +226,21 @@ ul#nav li.current a { color: #fe6928; }
    line-height: 30px;
    color: #ccc;
 }
+
+#about .column {
+   flex: 1; /* La columna ocupará todo el espacio disponible */
+   padding: 20px; /* Añade un espacio de relleno para separar el contenido del borde */
+   max-width: 500px; /* Ajusta el valor según tu preferencia */
+ }
+
+#about .container {
+   display: flex;
+   flex-direction: row; /* Establece la dirección en fila para que las columnas estén al lado una de la otra */
+ }
+
 #about .profile-pic {
    position: relative;
-   width: 300px;
+   width: 500px;
    height: 300px;
    border-radius: 20px;
 }
@@ -280,7 +297,7 @@ ul#nav li.current a { color: #fe6928; }
 .education, .work {
    margin-bottom: 48px;
    padding-bottom: 24px;
-   border-bottom: 1px solid #E8E8E8;
+   border-bottom: 1px solid rgb(198, 43, 226);
 }
 #formacion .info {
    font: 16px/24px 'librebaskerville-italic', serif;
@@ -304,6 +321,87 @@ ul#nav li.current a { color: #fe6928; }
    text-align: justify;
    color:#000524;
  }
+
+
+
+
+/* ------------------------------------------------------------------ */
+/* e. servicios Section
+/* ------------------------------------------------------------------ */
+
+ #servicios {
+   background: #640c85d4;
+   padding-top: 96px;
+   padding-bottom: 66px;
+   overflow: hidden;
+}
+
+#servicios a, #about a:visited  { color: #fff; }
+#servicios a:hover, #about a:focus { color: #0762f9; }
+
+.justified {
+   text-align: justify;
+}
+
+
+#servicios .column {
+   flex: 1; /* La columna ocupará todo el espacio disponible */
+   padding: 20px; /* Añade un espacio de relleno para separar el contenido del borde */
+   max-width: 500px; /* Ajusta el valor según tu preferencia */
+ }
+
+#servicios .container {
+   display: flex;
+   flex-direction: row; /* Establece la dirección en fila para que las columnas estén al lado una de la otra */
+ }
+
+#servicios h2 {
+   font: 25px/34px 'opensans-bold', sans-serif;
+   color: #fff;
+   margin-bottom: 12px;
+}
+
+#servicios h3 {
+   font: 22px/30px 'opensans-bold', sans-serif;
+   color: #fff;
+   margin-bottom: 12px;
+}
+#servicios p {
+   line-height: 30px;
+   color: #ccc;
+}
+#servicios .profile-pic {
+   position: relative;
+   width: 300px;
+   height: 300px;
+   border-radius: 20px;
+}
+#servicios .contact-details { width: 41.66667%; }
+#servicios .download {
+   width: 58.33333%;
+   padding-top: 6px;
+}
+#servicios .main-col { padding-right: 5%; }
+#servicios .button {
+   margin-top: 6px;
+   background: #bb1fde;
+}
+#servicios .download .button:hover {
+   background: #fff;
+   color: #2B2B2B;
+}
+#servicios .download .button i {
+   margin-right: 15px;
+   font-size: 20px;
+}
+
+.center {
+   text-align: center; /* Alinear texto al centro */
+ }
+
+
+
+
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
@@ -1045,7 +1143,13 @@ footer .social-links li:first-child { margin-left: 0; }
    margin-right: 15px;
 }
 .project-btn{
-   background-color: #1abc9c !important;
+   background-color: #842fab !important;
+}
+
+.special-size{
+
+   font-size:16px;
+
 }
 .github-btn{
    background-color: #34495e !important;
