@@ -1,14 +1,7 @@
 import React, { Component } from "react";
 import ReactGA from "react-ga";
-import $ from "jquery";
 import "./App.css";
-import Header from "./Components/Header";
-import Footer from "./Components/Footer";
-import About from "./Components/About";
-import Formacion from "./Components/Formacion";
-import Servicios from "./Components/Servicios";
-import Contact from "./Components/Contact";
-import Mapa from "./Components/Mapa";
+import {Routes} from "./Routes";
 
 class App extends Component {
   constructor(props) {
@@ -22,36 +15,9 @@ class App extends Component {
     ReactGA.pageview(window.location.pathname);
   }
 
-  getResumeData() {
-    $.ajax({
-      url: "./resumeData.json",
-      dataType: "json",
-      cache: false,
-      success: function(data) {
-        this.setState({ resumeData: data });
-      }.bind(this),
-      error: function(xhr, status, err) {
-        console.log(err);
-        alert(err);
-      }
-    });
-  }
-
-  componentDidMount() {
-    this.getResumeData();
-  }
-
   render() {
     return (
-      <div className="App">
-        <Header data={this.state.resumeData.main} />
-        <About data={this.state.resumeData.main} />
-        <Formacion data={this.state.resumeData.resume} />
-        <Servicios data={this.state.resumeData.servicios} />
-        <Mapa data={this.state.resumeData.mapa} />
-        <Contact data={this.state.resumeData.main} />
-        <Footer data={this.state.resumeData.main} />
-      </div>
+      <Routes></Routes>
     );
   }
 }
