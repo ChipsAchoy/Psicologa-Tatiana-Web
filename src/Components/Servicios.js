@@ -27,27 +27,60 @@ class Servicios extends Component {
           </div>
           <Fade bottom duration={2000}>
             <div className="row">
-              <h2 class="center">Psicoterapia Individual</h2>
+              <h3 class="center">Solicitar este servicio</h3>
               <ul className="social" class="center">
                 <a href={"https://wa.me/+50686095592"} className="button btn project-btn">
                   <i className="fa fa-phone"></i>Agendar Cita
                 </a>
               </ul>
-
-              <h2 class="center">Psicoterapia de Pareja</h2>
+            </div>
+            <div className="row">
+              <h2>CHARLAS, CURSOS Y TALLERES PSICOEDUCATIVOS</h2>
+              <h3>Acerca de temas que sean de tú interés o del de tu empresa o grupo al que pertenezcas. Posibles temas:</h3>
+              <li>Codependencia y dependencia emocional</li>
+              <li>Inteligencia emocional</li>
+              <li>Sexualidad</li>
+              <li>Relaciones Tóxicas</li>
+              <li>Coaching individual y grupal del tema que se requiera</li>
+              <li>Acoso laboral</li>
+              <li>Ansiedad, depresión, temores</li>
+              <li>Entre muchos otros</li>
+            </div>
+            <div className="row">
+              <h3 class="center">Solicitar este servicio</h3>
               <ul className="social" class="center">
                 <a href={"https://wa.me/+50686095592"} className="button btn project-btn">
                   <i className="fa fa-phone"></i>Agendar Cita
                 </a>
               </ul>
-
-              <h2 class="center">Psicoterapia Familiar</h2>
+            </div>
+            <div className="row">
+              <h2>CERTIFICACIONES Y EVALUACIONES</h2>
+              <li>Informes psicológicos para determinar el grado de una lesión en procesos civiles y penales en casos relacionados con violencia sexual, asuntos familiares y contravenciones</li>
+              <li>Evaluación de Idoneidad Mental para portar y poseer armas de fuego o laborar en seguridad privada (Próximamente)</li>
+              <li>Certificado para Mascotas como Apoyo Emocional</li>
+            </div>
+            <div className="row">
+              <h3 class="center">Solicitar este servicio</h3>
               <ul className="social" class="center">
                 <a href={"https://wa.me/+50686095592"} className="button btn project-btn">
                   <i className="fa fa-phone"></i>Agendar Cita
                 </a>
               </ul>
-
+            </div>
+            <div className="row">
+              <h2>RECURSOS HUMANOS</h2>
+              <li>Reclutamiento y Selección de personal</li>
+              <li>Formación de empleados/gestión de equipo humano</li>
+              <li>Asesoramiento y coaching/resolución de conflictos y manejo del estrés</li>
+            </div>
+            <div className="row">
+              <h3 class="center">Solicitar este servicio</h3>
+              <ul className="social" class="center">
+                <a href={"https://wa.me/+50686095592"} className="button btn project-btn">
+                  <i className="fa fa-phone"></i>Agendar Cita
+                </a>
+              </ul>
             </div>
           </Fade>
         </Fade>

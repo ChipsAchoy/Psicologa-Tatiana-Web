@@ -8,6 +8,7 @@ import About from "./Components/About";
 import Formacion from "./Components/Formacion";
 import Servicios from "./Components/Servicios";
 import Contact from "./Components/Contact";
+import Mapa from "./Components/Mapa";
 
 class App extends Component {
   constructor(props) {
@@ -47,6 +48,7 @@ class App extends Component {
         <About data={this.state.resumeData.main} />
         <Formacion data={this.state.resumeData.resume} />
         <Servicios data={this.state.resumeData.servicios} />
+        <Mapa data={this.state.resumeData.mapa} />
         <Contact data={this.state.resumeData.main} />
         <Footer data={this.state.resumeData.main} />
       </div>

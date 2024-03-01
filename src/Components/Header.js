@@ -38,14 +38,8 @@ class Header extends Component {
                 Servicios
               </a>
             </li>
-
             <li>
-              <a className="smoothscroll" href="#contact">
-                Charlas
-              </a>
-            </li>
-            <li>
-              <a className="smoothscroll" href="#contact">
+              <a className="smoothscroll" href="#mapa">
                 Mapa
               </a>
             </li>
