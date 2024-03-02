@@ -7,6 +7,7 @@ import Footer from "./Footer";
 import About from "./About";
 import Formacion from "./Formacion";
 import Servicios from "./Servicios";
+import Mapa from "./Mapa";
 import Contact from "./Contact";
 
 class Home extends Component {
@@ -47,6 +48,7 @@ class Home extends Component {
         <About data={this.state.resumeData.main} />
         <Formacion data={this.state.resumeData.resume} />
         <Servicios data={this.state.resumeData.servicios} />
+        <Mapa data={this.state.resumeData.mapa} />
         <Contact data={this.state.resumeData.main} />
         <Footer data={this.state.resumeData.main} />
       </div>
