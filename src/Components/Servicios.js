@@ -20,7 +20,7 @@ class Servicios extends Component {
               </div>
               <div className="column">
                 <img
-                  src={profilepic}
+                  src={profilepic} alt="Profile pic"
                 />
               </div>
             </div>
@@ -31,7 +31,7 @@ class Servicios extends Component {
               <ul className="social" class="center">
                 <a href={"https://wa.me/+50686095592"} className="button btn project-btn">
                   <i className="fa fa-phone"></i>Agendar Cita
-                </a>
+                </a>  
               </ul>
             </div>
             <div className="row">
