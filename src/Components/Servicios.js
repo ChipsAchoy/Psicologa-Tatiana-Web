@@ -29,7 +29,7 @@ class Servicios extends Component {
             <div className="row">
               <h3 class="center">Solicitar este servicio</h3>
               <ul className="social" class="center">
-                <a href={"https://wa.me/+50686095592"} className="button btn project-btn">
+                <a href={"https://wa.me/+50688559562"} className="button btn project-btn">
                   <i className="fa fa-phone"></i>Agendar Cita
                 </a>  
               </ul>
@@ -49,7 +49,7 @@ class Servicios extends Component {
             <div className="row">
               <h3 class="center">Solicitar este servicio</h3>
               <ul className="social" class="center">
-                <a href={"https://wa.me/+50686095592"} className="button btn project-btn">
+                <a href={"https://wa.me/+50688559562"} className="button btn project-btn">
                   <i className="fa fa-phone"></i>Agendar Cita
                 </a>
               </ul>
@@ -63,7 +63,7 @@ class Servicios extends Component {
             <div className="row">
               <h3 class="center">Solicitar este servicio</h3>
               <ul className="social" class="center">
-                <a href={"https://wa.me/+50686095592"} className="button btn project-btn">
+                <a href={"https://wa.me/+50688559562"} className="button btn project-btn">
                   <i className="fa fa-phone"></i>Agendar Cita
                 </a>
               </ul>
@@ -77,7 +77,7 @@ class Servicios extends Component {
             <div className="row">
               <h3 class="center">Solicitar este servicio</h3>
               <ul className="social" class="center">
-                <a href={"https://wa.me/+50686095592"} className="button btn project-btn">
+                <a href={"https://wa.me/+50688559562"} className="button btn project-btn">
                   <i className="fa fa-phone"></i>Agendar Cita
                 </a>
               </ul>

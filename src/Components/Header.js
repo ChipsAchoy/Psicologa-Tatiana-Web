@@ -64,7 +64,7 @@ class Header extends Component {
             <hr />
             <Fade bottom duration={2000}>
               <ul className="social">
-                <a href={"https://wa.me/+50686095592"} className="button btn project-btn">
+                <a href={"https://wa.me/+50688559562"} className="button btn project-btn">
                   <i className="fa fa-phone"></i>Reservar Cita
                 </a>
               </ul>
