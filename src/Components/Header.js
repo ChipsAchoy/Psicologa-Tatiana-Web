@@ -39,6 +39,11 @@ class Header extends Component {
               </a>
             </li>
             <li>
+              <a href="/Blogs">
+                Blogs
+              </a>
+            </li>
+            <li>
               <a className="smoothscroll" href="#mapa">
                 Mapa
               </a>
@@ -48,6 +53,7 @@ class Header extends Component {
                 Contacto
               </a>
             </li>
+            
           </ul>
         </nav>
 
