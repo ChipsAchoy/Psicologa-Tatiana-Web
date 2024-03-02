@@ -1021,6 +1021,17 @@ call-to-action .button {
 	color: #0762f9;
 	font-size: 13px;
 }
+
+#contact h2{
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   color: #EBEEEE;
+   margin-bottom: 6px;
+}
+
+
+
 #message-warning, #message-success {
    display: none;
 	background: #0F0F0F;
