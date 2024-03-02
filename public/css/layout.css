@@ -355,6 +355,13 @@ ul#nav li.current a { color: #fe6928; }
    flex-direction: row; /* Establece la dirección en fila para que las columnas estén al lado una de la otra */
  }
 
+
+#servicios h1 {
+   font: 30px/38px 'opensans-bold', sans-serif;
+   color: #fff;
+   margin-bottom: 12px;
+}
+
 #servicios h2 {
    font: 25px/34px 'opensans-bold', sans-serif;
    color: #fff;
@@ -362,7 +369,7 @@ ul#nav li.current a { color: #fe6928; }
 }
 
 #servicios h3 {
-   font: 22px/30px 'opensans-bold', sans-serif;
+   font: 20px/28px 'opensans-bold', sans-serif;
    color: #fff;
    margin-bottom: 12px;
 }
@@ -409,14 +416,42 @@ ul#nav li.current a { color: #fe6928; }
 /* ------------------------------------------------------------------ */
 /* e. mapa Section
 /* ------------------------------------------------------------------ */
-
+.contenedor {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
 
 #mapa {
-   background: #ffffffd4;
-   padding-top: 96px;
-   padding-bottom: 66px;
+   background: #fff;
+   padding-top: 90px;
+   padding-bottom: 72px;
    overflow: hidden;
 }
+
+#mapa a, #mapa a:visited  { color: #0762f9; }
+#mapa a:hover, #mapa a:focus { color: #313131; }
+
+#mapa h1 {
+   font: 26px/30px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+#mapa h1 span {
+   border-bottom: 0px solid #0762f9;
+   padding-bottom: 1px;
+}
+#mapa h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+}
+
+#mapa h5 {
+   font: 22px/26px 'opensans-bold', sans-serif;
+   color: #ffffff;
+}
+#mapa .social a {
+   color: white;
+ }
 
 /*----------------------------------------------*/
 /*	Skill Bars
