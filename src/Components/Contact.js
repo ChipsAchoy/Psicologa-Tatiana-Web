@@ -28,6 +28,9 @@ class Contact extends Component {
                   tatianajpsicologa@gmail.com<br/>
                   Instagram: psicóloga_tjimenezv<br/>
                   <a href=" https://www.facebook.com/psicologatatianajimenezvargas?mibextid=ibOpuV">Facebook</a><br/>
+                  <a href="https://www.instagram.com/psicologa_tjimenezv/">Instagram</a><br/>
+                  <a href="https://www.tiktok.com/@tatianajimenez2204?lang=en">TikTok</a><br/>
+                  
                 </p>
               </div>
             </aside>

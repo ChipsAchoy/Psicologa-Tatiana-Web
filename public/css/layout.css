@@ -453,6 +453,187 @@ ul#nav li.current a { color: #fe6928; }
    color: white;
  }
 
+/* ------------------------------------------------------------------ */
+/* f. blogs Section
+/* ------------------------------------------------------------------ */
+
+
+/* Diseño de dos columnas */
+#blogs {
+   display: flex;
+ }
+ 
+ /* Primera columna (índice) */
+ #blogs .index-column {
+   background-color: #8017a0;
+   width: 30%;
+  padding: 20px;
+  position: fixed;
+  height: 100%;
+  overflow-y: auto;
+
+ }
+ 
+ 
+ /* Segunda columna (contenido) */
+ #blogs .content-column {
+   flex: 1;
+  margin-left: 30%;
+ }
+
+ #blogs a {
+   font: 15px/17px 'opensans-bold', sans-serif;
+   text-decoration: none;
+   color: #fff; /* Cambiar a blanco (#fff) o el color deseado */
+ }
+
+ #blogs li { 
+   line-height: 30px;
+   color: #ffffff;
+   margin-bottom: 10px;
+ }
+#blogs a:hover {
+   color: #dbb2ed; /* Cambiar a un tono más claro cuando se realiza el hover, si es necesario */
+ }
+
+#blogs h1 {
+   font: 40x/48px 'opensans-bold', sans-serif;
+   color: #fff;
+   margin-bottom: 30px;
+}
+
+#blogs p {
+   line-height: 30px;
+   color: #ffffff;
+}
+
+#blogs .column {
+   flex: 1; /* La columna ocupará todo el espacio disponible */
+   padding: 20px; /* Añade un espacio de relleno para separar el contenido del borde */
+   max-width: 500px; /* Ajusta el valor según tu preferencia */
+ }
+
+ #blogs .img{
+
+   width: 80%; /* Se ajusta automáticamente al ancho original manteniendo la proporción */
+   height: 80%; /* Se ajusta automáticamente al alto original manteniendo la proporción */
+}
+
+#blogs .row1{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#blogs1 {
+   background: #410243;
+   padding-bottom: 40px;
+   padding-top: 40px;
+}
+
+#blogs2 {
+   background: #ffffff;
+   padding-bottom: 40px;
+   padding-top: 40px;
+}
+
+#blogs3 {
+   background: #6c0470;
+   padding-bottom: 40px;
+   padding-top: 40px;
+}
+
+#blogs4 {
+   background: #410243;
+   padding-bottom: 40px;
+   padding-top: 40px;
+}
+
+#blogs5 {
+   background: #ffffff;
+   padding-bottom: 40px;
+   padding-top: 40px;
+}
+
+#blogs6 {
+   background: #6c0470;
+   padding-bottom: 40px;
+   padding-top: 40px;
+}
+
+#blogs3 h2 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+   color: #ffffff;
+   margin-bottom: 12px;
+}
+
+#blogs6 h2 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+   color: #ffffff;
+   margin-bottom: 12px;
+}
+
+
+#blogs4 h2 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+   color: #ffffff;
+   margin-bottom: 12px;
+}
+
+#blogs2 p {
+   line-height: 30px;
+   color: #34032e;
+}
+
+#blogs2 li {
+   line-height: 30px;
+   color: #34032e;
+   margin-bottom: 10px;
+}
+
+#blogs2 h1 {
+   font: 40x/48px 'opensans-bold', sans-serif;
+   color: #34032e;
+   margin-bottom: 40px;
+}
+
+#blogs2 h2 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+   color: #34032e;
+   margin-bottom: 12px;
+}
+
+
+
+#blogs5 p {
+   line-height: 30px;
+   color: #34032e;
+}
+
+#blogs5 li {
+   line-height: 30px;
+   color: #34032e;
+   margin-bottom: 10px;
+}
+
+#blogs5 h1 {
+   font: 40x/48px 'opensans-bold', sans-serif;
+   color: #34032e;
+   margin-bottom: 40px;
+}
+
+#blogs5 h2 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+   color: #34032e;
+   margin-bottom: 12px;
+}
+
+#blogs5 h3 {
+   font: 20px/25px 'opensans-bold', sans-serif;
+   color: #34032e;
+   margin-bottom: 12px;
+}
+
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
