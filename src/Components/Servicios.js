@@ -57,7 +57,7 @@ class Servicios extends Component {
             <div className="row">
               <h2>CERTIFICACIONES Y EVALUACIONES</h2>
               <li>Informes psicológicos para determinar el grado de una lesión en procesos civiles y penales en casos relacionados con violencia sexual, asuntos familiares y contravenciones</li>
-              <li>Evaluación de Idoneidad Mental para portar y poseer armas de fuego o laborar en seguridad privada (Próximamente)</li>
+              <li>Evaluación de Idoneidad Mental para portar y poseer armas de fuego o laborar en seguridad privada</li>
               <li>Certificado para Mascotas como Apoyo Emocional</li>
             </div>
             <div className="row">

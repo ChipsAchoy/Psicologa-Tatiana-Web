@@ -26,8 +26,6 @@ class Formacion extends Component {
                         <li>Facilitadora en múltiples talleres y cursos en Codependencia y Relaciones Tóxicas e inteligencia emocional.</li>
                         <li>En curso Maestría en Psicología Clínica y de la Salud Mental.</li>
                         <li>Generadora de contenido para redes sociales en psicoeducación.</li>
-
-                        
                     </ul>
 
                 </div>
